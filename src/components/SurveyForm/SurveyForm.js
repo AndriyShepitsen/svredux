@@ -77,7 +77,7 @@ class SurveyForm extends Component {
     return (
       <div>
         <form className="form-horizontal" onSubmit={handleSubmit}>
-          {renderInput(name, 'Full Name')}
+          {renderInput(name, 'Full Namae')}
           {renderInput(email, 'Email', true)}
           {renderInput(occupation, 'Occupation')}
           <div className="form-group">
