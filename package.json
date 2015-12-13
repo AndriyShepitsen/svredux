@@ -6,7 +6,7 @@
   "version": "0.9.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AndriyShepitsen/svredux"
+    "url": "https://github.com/AndriyShepitsen/svredux.git"
   },
   "homepage": "https://github.com/erikras/react-redux-universal-hot-example",
   "keywords": [
@@ -44,6 +44,7 @@
       "env": {
         "NODE_PATH": "./src",
         "NODE_ENV": "production",
+//        "PORT": 8080,
         "APIPORT": 3030
       }
     },
@@ -96,6 +97,7 @@
     "less-loader": "^2.2.1",
     "lru-memoize": "^1.0.0",
     "map-props": "^1.0.0",
+    "material-ui": "^0.13.4",
     "multireducer": "^1.0.2",
     "piping": "^0.3.0",
     "pretty-error": "^1.2.0",
